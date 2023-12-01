@@ -17,7 +17,10 @@ spec:
       annotations:
         {{- toYaml . | nindent 8 }}
       {{- end }}
+      {{- with .Values.podLables }}
       labels:
+        {{- toYaml . | nindent 8 }}
+      {{- end }}
         {{- include "eck-custom-resources-operator.selectorLabels" . | nindent 8 }}
     spec:
       {{- with .Values.imagePullSecrets }}
