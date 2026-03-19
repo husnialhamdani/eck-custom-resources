@@ -1,0 +1,24 @@
+apiVersion: v1
+entries:
+  eck-custom-resources-operator:
+  - apiVersion: v2
+    appVersion: 0.7.0
+    created: "2026-03-19T17:16:39.139850897Z"
+    description: Helm chart for eck-custom-resources operator
+    digest: 4b889e59d35b7585891b31d3ec8c957d9762834af710cf95e6f00205bb53abca
+    home: https://github.com/husnialhamdani/eck-custom-resources
+    maintainers:
+    - email: marek@xco.sk
+      name: Marek Hornak
+      url: https://github.com/xco-sk
+    - email: dhanielluis@gmail.com
+      name: Husni Alhamdani
+      url: https://github.com/husnialhamdani
+    name: eck-custom-resources-operator
+    sources:
+    - https://github.com/husnialhamdani/eck-custom-resources
+    type: application
+    urls:
+    - https://github.com/husnialhamdani/eck-custom-resources/releases/download/eck-custom-resources-operator-0.7.1/eck-custom-resources-operator-0.7.1.tgz
+    version: 0.7.1
+generated: "2026-03-19T17:16:39.139860495Z"
