@@ -42,6 +42,9 @@ jobs:
 
       - name: Run chart-releaser
         uses: helm/chart-releaser-action@v1.4.0
+        with:
+          charts_dir: helm
+          charts_repo_url: https://husnialhamdani.github.io/eck-custom-resources/helm
         env:
           CR_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
        
